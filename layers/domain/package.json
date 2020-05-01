@@ -1,0 +1,8 @@
+{
+  "name": "domain",
+  "version": "1.0.0",
+  "description": "Domain layer code",
+  "author": "Alex Kalashnikov",
+  "license": "MIT",
+  "dependencies": {}
+}

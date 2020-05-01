@@ -1,0 +1,12 @@
+{
+  "name": "dal",
+  "version": "1.0.0",
+  "description": "Data abstraction layer code",
+  "author": "Alex Kalashnikov",
+  "license": "MIT",
+  "dependencies": {
+    "inversify": "^5.0.1",
+    "sqlite3": "^4.2.0",
+    "typeorm": "^0.2.24"
+  }
+}

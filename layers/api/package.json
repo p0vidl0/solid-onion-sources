@@ -1,0 +1,11 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API layer code",
+  "author": "Alex Kalashnikov",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "inversify-express-utils": "^6.3.2"
+  }
+}

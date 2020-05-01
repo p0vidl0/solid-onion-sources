@@ -1,0 +1,22 @@
+{
+  "name": "solid-onion-sources",
+  "version": "1.0.0",
+  "description": "Source code example for the article https://habr.com/ru/post/499448/",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node -r ts-node/register src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Kalashnikov",
+  "license": "MIT",
+  "dependencies": {
+    "api": "file:layers/api",
+    "dal": "file:layers/dal",
+    "domain": "file:layers/domain",
+    "inversify": "^5.0.1"
+  },
+  "devDependencies": {
+    "ts-node": "^8.9.1",
+    "typescript": "^3.8.3"
+  }
+}
